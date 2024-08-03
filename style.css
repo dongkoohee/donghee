@@ -1,21 +1,24 @@
+* {
+    padding: 80px;
+    margin: 0;
+}
 body {
-        
+       background-color: #efe8a8;
 }
-h1 {
-    color: darkolivegreen;
-    font-size: 70px;
-}
-.koo {
-
-}
-img {
-    width: 100px;
-    height: 100px;
-}
-.me1 {
-    width: 200px;
+header {
+    width: 500px;
     height: 200px;
+    background-color: #fff;
+    
 }
-video {
-    width: 200px;
+
+.header_box {
+        width: 100px;
+        height: 100px;
+        background-color: blanchedalmond;
+}
+.title {
+    margin: 100px;
+    padding: 20px;
+    text-align: center;
 }

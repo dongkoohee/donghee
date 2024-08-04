@@ -9,16 +9,9 @@ header {
     width: 500px;
     height: 200px;
     background-color: #fff;
-    
-}
-
-.header_box {
-        width: 100px;
-        height: 100px;
-        background-color: blanchedalmond;
 }
 .title {
     margin: 100px;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
 }

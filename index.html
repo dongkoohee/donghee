@@ -1,96 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>코딩수업</title>
-    <!-- <link rel="stylesheet" href="/style.css"> -->
+    <title>CV de Donghee </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <style>
+        .outfit {
+            font-family: "Outfit";
+        }
         * {
-            padding: 0;
             margin: 0;
+            padding: 0;
+            
+        }
+       body {
+            width: 794px;
+            height: 1123px;
+            margin: 0;
+            padding: 32px;
+            box-sizing: border-box;
+            background-color: #f8e45d;
         }
         header {
-            width: 80%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .name {
+            font-size: 30px;
+        }
+        .pic {
+            width: 150px;
             height: 200px;
-            background-color: indianred;
-            display: flex;
-            justify-content: center;
-            align-items: center;
         }
-        header .header_box {
-            width: 80%;
-            height: 150px;
-            background-color: #d5adad;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        img {
+            width: 100%;
         }
-        .title_box {
-            width: 200px;
-            height: 100px;
-            display: flex;
-            text-align: center;
-            align-items: center;
-        }
-        .title_box p {
-            color: #fffffbb5;
-        }
-        .main_box {
-            width:100%;
-            /* height:1700px; */
-            background-color: #FFF;
+        main {
+            margin-top: 32px;
+            width: 100%;
+            height: 100%;
             display: flex;
             justify-content: space-between;
         }
         .banner {
-            margin-top: 30px;
-            margin-left: 10px;
-            margin-right: 10px;
-            width:150px;
-            height:900px;
-            background-color: rgb(246, 194, 249);
+            width: 30%;
+            height: 20%;
+            background-color: red;
         }
-        .banner1 {
-            width:900px;
-            height:150px;
-            background-color: rgb(157, 214, 243);
-            display:flex
+        .content {
+            width: 50%;
+            height: 30%;
+            background-color: rgb(251, 222, 222);
         }
-        footer {
-            width: 100%;
-            height: 500px;
-        }
-        </style>
-    <link rel="icon" href="/favicon2.svg">
-    
+    </style>
 </head>
 <body>
     <header>
-        <div class="header_box">
-            <div class="title_box">
-                <p>퇴사 후 새로운 삶</p>
-            </div>
-        </header>
-        <!-- 여기까지 헤더 -->
-        <main>
-            <div class="main_box">
-                <div class="banner">배너입니다1</div>
-                <div class="banner">배너입니다2</div>
-            </div>
-            <div class="banner1">배너입니다3</div>
-        </main>
-       
-    <!-- 메인 -->
-    <footer>
-        <p>동히가 따라해보고 싶은 사이트 모음</p>
-        <br><a href="http://anti666.com" target="_blank" >1.휴거</a><br>
-        <br><a href="https://vimeo.com">2.vimeo</a><br>
-        <a href="https://www.leeumhoam.org">3.미술관&#127963;</a>
-    </footer>
-    <!-- 풋터 -->
+        <div class="name outfit">
+            <p>Dong hee</p>
+            <p>Koo</p>
+        </div>
+        <div class="pic">
+            <img src="/잉.JPG" alt="">
+
+        </div>
+    </header>
+    <main>
+        <div class="content"></div>
+        <div class="banner"></div>
+    </main>
+    <footer></footer>
+    <ul>
+        <li>인적사항 - 사진, 이름, 이메일, 주소, 전화번호, SNS</li>
+        <li>학력</li>
+        <li>구사언어</li>
+        <li>경력</li>
+        <li>능력</li>
+    </ul>
     
 </body>
-</html>`
+</html>
